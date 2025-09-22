@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GamesIMade\\BeyondDarkUE5Remake\\BeyondDarkRemake\\Source\\BeyondDarkRemake\\BeyondDarkRemake.Build.cs",
+		"D:\\GamesIMade\\BeyondDarkUE5Remake\\BeyondDarkRemake\\Source\\BeyondDarkRemake.Target.cs",
+		"D:\\GamesIMade\\BeyondDarkUE5Remake\\BeyondDarkRemake\\Source\\BeyondDarkRemakeEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

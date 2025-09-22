@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\beyonddarkremake.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\beyonddarkremakeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\beyonddarkremake\\definitions.beyonddarkremake.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\beyonddarkremake.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
