@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\modularhidingspot.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\beyonddarkremakeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\beyonddarkremake\\definitions.beyonddarkremake.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\modularhidingspot.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\unrealeditor\\inc\\beyonddarkremake\\uht\\modularhidingspot.generated.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\hidingspotcomponent.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\unrealeditor\\inc\\beyonddarkremake\\uht\\hidingspotcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

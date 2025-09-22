@@ -1,0 +1,28 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\lookswaycomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\beyonddarkremakeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\beyonddarkremake\\definitions.beyonddarkremake.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\lookswaycomponent.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\unrealeditor\\inc\\beyonddarkremake\\uht\\lookswaycomponent.generated.h",
+            "e:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "e:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "e:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "e:\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "e:\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "e:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "e:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "e:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "e:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "e:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\firstpersonbobcomponent.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\unrealeditor\\inc\\beyonddarkremake\\uht\\firstpersonbobcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
