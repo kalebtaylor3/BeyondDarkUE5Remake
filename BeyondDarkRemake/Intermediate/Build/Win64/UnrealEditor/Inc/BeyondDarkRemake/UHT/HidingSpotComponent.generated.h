@@ -40,7 +40,11 @@ BEYONDDARKREMAKE_API void FOnDoorTargetChanged_DelegateWrapper(const FMulticastS
 	DECLARE_FUNCTION(execEnter); \
 	DECLARE_FUNCTION(execCanEnter); \
 	DECLARE_FUNCTION(execOpenTo); \
-	DECLARE_FUNCTION(execToggleOpen);
+	DECLARE_FUNCTION(execToggleOpen); \
+	DECLARE_FUNCTION(execGetRipOutHandleWorldLocation); \
+	DECLARE_FUNCTION(execGetExposureForAI); \
+	DECLARE_FUNCTION(execGetOccupant); \
+	DECLARE_FUNCTION(execIsOccupied);
 
 
 #if WITH_EDITOR

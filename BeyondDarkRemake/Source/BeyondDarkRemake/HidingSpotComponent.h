@@ -45,6 +45,22 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Hiding|Door")
 	FComponentReference DoorRef;
 
+	UFUNCTION(BlueprintPure, Category = "Hiding|AI")
+	bool IsOccupied() const { return bIsOccupied; }
+
+	UFUNCTION(BlueprintPure, Category = "Hiding|AI")
+	APawn* GetOccupant() const { return Occupant.Get(); }
+
+	// A simple exposure heuristic based on door openness & your peek curve.
+	// 0 = fully safe, 1 = fully exposed.
+	UFUNCTION(BlueprintPure, Category = "Hiding|AI")
+	float GetExposureForAI() const;
+
+	// Where the monster should face/grab when ripping out.
+	// Defaults to Door component, falls back to EntryPoint or the owner root.
+	UFUNCTION(BlueprintPure, Category = "Hiding|AI")
+	FVector GetRipOutHandleWorldLocation() const;
+
 	// ---- Resolved pointers (runtime, not editable) ----
 	UPROPERTY(Transient) TObjectPtr<USceneComponent> EntryPoint = nullptr;
 	UPROPERTY(Transient) TObjectPtr<USceneComponent> ExitPoint = nullptr;

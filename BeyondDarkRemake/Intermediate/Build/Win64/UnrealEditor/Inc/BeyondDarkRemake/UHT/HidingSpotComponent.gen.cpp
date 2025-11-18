@@ -708,6 +708,96 @@ DEFINE_FUNCTION(UHidingSpotComponent::execForceExit)
 }
 // End Class UHidingSpotComponent Function ForceExit
 
+// Begin Class UHidingSpotComponent Function GetExposureForAI
+struct Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics
+{
+	struct HidingSpotComponent_eventGetExposureForAI_Parms
+	{
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Hiding|AI" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// A simple exposure heuristic based on door openness & your peek curve.\n// 0 = fully safe, 1 = fully exposed.\n" },
+#endif
+		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "A simple exposure heuristic based on door openness & your peek curve.\n0 = fully safe, 1 = fully exposed." },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(HidingSpotComponent_eventGetExposureForAI_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHidingSpotComponent, nullptr, "GetExposureForAI", nullptr, nullptr, Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::PropPointers), sizeof(Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::HidingSpotComponent_eventGetExposureForAI_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::Function_MetaDataParams), Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::HidingSpotComponent_eventGetExposureForAI_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UHidingSpotComponent::execGetExposureForAI)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=P_THIS->GetExposureForAI();
+	P_NATIVE_END;
+}
+// End Class UHidingSpotComponent Function GetExposureForAI
+
+// Begin Class UHidingSpotComponent Function GetOccupant
+struct Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics
+{
+	struct HidingSpotComponent_eventGetOccupant_Parms
+	{
+		APawn* ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Hiding|AI" },
+		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(HidingSpotComponent_eventGetOccupant_Parms, ReturnValue), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHidingSpotComponent, nullptr, "GetOccupant", nullptr, nullptr, Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::PropPointers), sizeof(Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::HidingSpotComponent_eventGetOccupant_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::Function_MetaDataParams), Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::HidingSpotComponent_eventGetOccupant_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UHidingSpotComponent_GetOccupant()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UHidingSpotComponent::execGetOccupant)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(APawn**)Z_Param__Result=P_THIS->GetOccupant();
+	P_NATIVE_END;
+}
+// End Class UHidingSpotComponent Function GetOccupant
+
 // Begin Class UHidingSpotComponent Function GetPeekForPawn
 struct Z_Construct_UFunction_UHidingSpotComponent_GetPeekForPawn_Statics
 {
@@ -760,6 +850,101 @@ DEFINE_FUNCTION(UHidingSpotComponent::execGetPeekForPawn)
 	P_NATIVE_END;
 }
 // End Class UHidingSpotComponent Function GetPeekForPawn
+
+// Begin Class UHidingSpotComponent Function GetRipOutHandleWorldLocation
+struct Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics
+{
+	struct HidingSpotComponent_eventGetRipOutHandleWorldLocation_Parms
+	{
+		FVector ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Hiding|AI" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Where the monster should face/grab when ripping out.\n// Defaults to Door component, falls back to EntryPoint or the owner root.\n" },
+#endif
+		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Where the monster should face/grab when ripping out.\nDefaults to Door component, falls back to EntryPoint or the owner root." },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(HidingSpotComponent_eventGetRipOutHandleWorldLocation_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHidingSpotComponent, nullptr, "GetRipOutHandleWorldLocation", nullptr, nullptr, Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::HidingSpotComponent_eventGetRipOutHandleWorldLocation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::HidingSpotComponent_eventGetRipOutHandleWorldLocation_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UHidingSpotComponent::execGetRipOutHandleWorldLocation)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(FVector*)Z_Param__Result=P_THIS->GetRipOutHandleWorldLocation();
+	P_NATIVE_END;
+}
+// End Class UHidingSpotComponent Function GetRipOutHandleWorldLocation
+
+// Begin Class UHidingSpotComponent Function IsOccupied
+struct Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics
+{
+	struct HidingSpotComponent_eventIsOccupied_Parms
+	{
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Hiding|AI" },
+		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((HidingSpotComponent_eventIsOccupied_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(HidingSpotComponent_eventIsOccupied_Parms), &Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHidingSpotComponent, nullptr, "IsOccupied", nullptr, nullptr, Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::PropPointers), sizeof(Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::HidingSpotComponent_eventIsOccupied_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::Function_MetaDataParams), Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::HidingSpotComponent_eventIsOccupied_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UHidingSpotComponent_IsOccupied()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UHidingSpotComponent::execIsOccupied)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->IsOccupied();
+	P_NATIVE_END;
+}
+// End Class UHidingSpotComponent Function IsOccupied
 
 // Begin Class UHidingSpotComponent Function OpenTo
 struct Z_Construct_UFunction_UHidingSpotComponent_OpenTo_Statics
@@ -1051,7 +1236,11 @@ void UHidingSpotComponent::StaticRegisterNativesUHidingSpotComponent()
 		{ "Enter", &UHidingSpotComponent::execEnter },
 		{ "Exit", &UHidingSpotComponent::execExit },
 		{ "ForceExit", &UHidingSpotComponent::execForceExit },
+		{ "GetExposureForAI", &UHidingSpotComponent::execGetExposureForAI },
+		{ "GetOccupant", &UHidingSpotComponent::execGetOccupant },
 		{ "GetPeekForPawn", &UHidingSpotComponent::execGetPeekForPawn },
+		{ "GetRipOutHandleWorldLocation", &UHidingSpotComponent::execGetRipOutHandleWorldLocation },
+		{ "IsOccupied", &UHidingSpotComponent::execIsOccupied },
 		{ "OpenTo", &UHidingSpotComponent::execOpenTo },
 #if WITH_EDITOR
 		{ "SnapClosedFromCurrent", &UHidingSpotComponent::execSnapClosedFromCurrent },
@@ -1453,7 +1642,11 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 		{ &Z_Construct_UFunction_UHidingSpotComponent_Enter, "Enter" }, // 697671534
 		{ &Z_Construct_UFunction_UHidingSpotComponent_Exit, "Exit" }, // 1462218694
 		{ &Z_Construct_UFunction_UHidingSpotComponent_ForceExit, "ForceExit" }, // 3623052641
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI, "GetExposureForAI" }, // 986193010
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetOccupant, "GetOccupant" }, // 1615689983
 		{ &Z_Construct_UFunction_UHidingSpotComponent_GetPeekForPawn, "GetPeekForPawn" }, // 2651734005
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation, "GetRipOutHandleWorldLocation" }, // 3069795882
+		{ &Z_Construct_UFunction_UHidingSpotComponent_IsOccupied, "IsOccupied" }, // 2340742295
 		{ &Z_Construct_UFunction_UHidingSpotComponent_OpenTo, "OpenTo" }, // 4274210128
 #if WITH_EDITOR
 		{ &Z_Construct_UFunction_UHidingSpotComponent_SnapClosedFromCurrent, "SnapClosedFromCurrent" }, // 3095179587
@@ -1618,10 +1811,10 @@ struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Hiding
 		{ EDoorOpenInput_StaticEnum, TEXT("EDoorOpenInput"), &Z_Registration_Info_UEnum_EDoorOpenInput, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2693072755U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UHidingSpotComponent, UHidingSpotComponent::StaticClass, TEXT("UHidingSpotComponent"), &Z_Registration_Info_UClass_UHidingSpotComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHidingSpotComponent), 1400264773U) },
+		{ Z_Construct_UClass_UHidingSpotComponent, UHidingSpotComponent::StaticClass, TEXT("UHidingSpotComponent"), &Z_Registration_Info_UClass_UHidingSpotComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHidingSpotComponent), 374192159U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_725803497(TEXT("/Script/BeyondDarkRemake"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_4269773499(TEXT("/Script/BeyondDarkRemake"),
 	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::EnumInfo));

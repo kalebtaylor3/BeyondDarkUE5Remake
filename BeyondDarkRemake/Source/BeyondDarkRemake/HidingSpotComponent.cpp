@@ -494,6 +494,26 @@ void UHidingSpotComponent::SetPawnHiddenState(APawn* Pawn, bool bHidden)
 	}
 }
 
+float UHidingSpotComponent::GetExposureForAI() const
+{
+	// Use your existing "openness" as the driver (with PeekCurve shaping).
+	const float t = PeekCurve ? PeekCurve->GetFloatValue(OpenAlpha) : OpenAlpha;
+
+	// If someone is inside and the door is cracked, exposure rises faster.
+	// Tune these two numbers to taste:
+	const float BaseWhenClosed = bIsOccupied ? 0.12f : 0.20f;
+	const float MaxWhenOpen = bIsOccupied ? 0.95f : 0.85f;
+
+	return FMath::Clamp(FMath::Lerp(BaseWhenClosed, MaxWhenOpen, t), 0.f, 1.f);
+}
+
+FVector UHidingSpotComponent::GetRipOutHandleWorldLocation() const
+{
+	if (DoorComponent) return DoorComponent->GetComponentLocation();
+	if (EntryPoint)    return EntryPoint->GetComponentLocation();
+	return GetOwner() ? GetOwner()->GetActorLocation() : FVector::ZeroVector;
+}
+
 void UHidingSpotComponent::SetPawnMovementEnabled(APawn* Pawn, bool bEnabled)
 {
 	if (ACharacter* C = Cast<ACharacter>(Pawn))
