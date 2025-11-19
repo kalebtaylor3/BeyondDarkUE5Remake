@@ -4,10 +4,11 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "DrawDebugHelpers.h"
 #include "HAL/IConsoleManager.h"
-
+#include "MonsterStates.h"
 #include "MonsterAwarenessComponent.h"
 #include "MonsterCharacter.h"
-#include "MonsterBB.h"   // Make sure this defines: Awareness, State, HasLineOfSight, TargetActor, LastKnownPlayerLocation, InvestigateLocation, ShouldScream
+#include "MonsterBB.h"
+#include "Engine/Engine.h" // GEngine->AddOnScreenDebugMessage
 
 // Console toggle for debug draws (1 = on, 0 = off)
 static TAutoConsoleVariable<int32> CVarAIDebugAwareness(
@@ -20,13 +21,6 @@ USvc_UpdateAwareness::USvc_UpdateAwareness()
 	NodeName = TEXT("Sync Awareness To Blackboard (+Debug)");
 	bNotifyTick = true;
 	bCreateNodeInstance = true; // safer when shared between many AIs
-}
-
-static FORCEINLINE FColor HeatColor(float T01)
-{
-	T01 = FMath::Clamp(T01, 0.f, 1.f);
-	const FLinearColor C = FLinearColor::LerpUsingHSV(FLinearColor::Green, FLinearColor::Red, T01);
-	return C.ToFColor(true);
 }
 
 static FString StateToString(EMonsterState State)
@@ -42,12 +36,27 @@ static FString StateToString(EMonsterState State)
 	}
 }
 
+// Color for both bar + text based on state
+static FColor StateDebugColor(EMonsterState State)
+{
+	switch (State)
+	{
+	case EMonsterState::Patrol:      return FColor(100, 255, 100);   // light green
+	case EMonsterState::Investigate: return FColor(255, 180, 60);    // orange
+	case EMonsterState::Search:      return FColor(80, 200, 255);    // blue/cyan
+	case EMonsterState::Chase:       return FColor(255, 80, 80);     // red
+	case EMonsterState::Scream:      return FColor(255, 100, 255);   // magenta
+	default:                         return FColor::White;
+	}
+}
+
 void USvc_UpdateAwareness::TickNode(
 	UBehaviorTreeComponent& OwnerComp,
 	uint8* /*NodeMemory*/,
 	float DeltaSeconds)
 {
-	Super::TickNode(OwnerComp, nullptr, DeltaSeconds);
+	// We don't really need the base implementation here
+	// Super::TickNode(OwnerComp, NodeMemory, DeltaSeconds);
 
 	UBlackboardComponent* BB = OwnerComp.GetBlackboardComponent();
 	AAIController* AIC = OwnerComp.GetAIOwner();
@@ -101,47 +110,92 @@ void USvc_UpdateAwareness::TickNode(
 		const FVector SelfLoc = Pawn->GetActorLocation();
 		const FVector HeadLoc = SelfLoc + FVector(0.f, 0.f, 90.f);
 
-		// Awareness bar
-		const float BarLen = 140.f;
-		const float FilledLen = BarLen * AwarenessNorm;
-		const FColor BarColor = HeatColor(AwarenessNorm);
+		// Lifetime just a bit longer than your service tick (e.g. ~0.1s)
+		const float DebugDuration = 0.18f;
 
-		const FVector BarStart = HeadLoc + FVector(0.f, 0.f, 25.f);
-		const FVector BarEndFilled = BarStart + FVector(FilledLen, 0.f, 0.f);
-		const FVector BarEndTotal = BarStart + FVector(BarLen, 0.f, 0.f);
+		// State-tinted color
+		const FColor StateColor = StateDebugColor(State);
 
-		DrawDebugLine(World, BarStart, BarEndFilled, BarColor, false, 0.06f, 0, 4.f);
-		DrawDebugLine(World, BarEndFilled, BarEndTotal, FColor(50, 50, 50), false, 0.06f, 0, 1.f);
+		// ========================
+		// 1) 3D PROGRESS BAR ABOVE HEAD
+		// ========================
 
-		// Text: awareness + state + LOS
-		FString DebugText = FString::Printf(
-			TEXT("Awr=%.1f / %.0f  (%.0f%%)\nState=%s  LOS=%s"),
-			Awareness,
-			MaxAwareness,
-			AwarenessNorm * 100.f,
-			*StateToString(State),
-			bHasLOS ? TEXT("Y") : TEXT("N")
-		);
+		const float BarLength = 220.f;   // world units
+		const float BarOffsetZ = 110.f;   // height above head
+		const float BarThicknessFilled = 8.f;
+		const float BarThicknessEmpty = 4.f;
 
-		if (TargetActor)
+		// Start at left side of the bar above the head
+		const FVector BarStart = HeadLoc + FVector(-BarLength * 0.5f, 0.f, BarOffsetZ);
+		const FVector BarEnd = BarStart + FVector(BarLength, 0.f, 0.f);
+
+		// Filled part
+		const float FilledLen = BarLength * AwarenessNorm;
+		const FVector FilledEnd = BarStart + FVector(FilledLen, 0.f, 0.f);
+
+		// Draw the filled segment in state color
+		if (FilledLen > KINDA_SMALL_NUMBER)
 		{
-			DebugText += FString::Printf(
-				TEXT("\nTargetDist=%.0f"),
-				FVector::Dist(SelfLoc, TargetActor->GetActorLocation()));
+			DrawDebugLine(
+				World,
+				BarStart,
+				FilledEnd,
+				StateColor,
+				false,
+				DebugDuration,
+				0,
+				BarThicknessFilled
+			);
 		}
 
-		DrawDebugString(
-			World,
-			HeadLoc + FVector(0.f, 0.f, 45.f),
-			DebugText,
-			nullptr,
-			BarColor,
-			0.f,
-			false,
-			1.2f
-		);
+		// Draw the rest of the bar in dark grey
+		if (FilledLen < BarLength - KINDA_SMALL_NUMBER)
+		{
+			DrawDebugLine(
+				World,
+				FilledEnd,
+				BarEnd,
+				FColor(30, 30, 30),
+				false,
+				DebugDuration,
+				0,
+				BarThicknessEmpty
+			);
+		}
 
-		// LOS line to target if we have one
+		// ========================
+		// 2) SIMPLE HUD TEXT (STATE-COLORED)
+		// ========================
+
+		float TargetDist = 0.f;
+		if (TargetActor)
+		{
+			TargetDist = FVector::Dist(SelfLoc, TargetActor->GetActorLocation());
+		}
+
+		if (GEngine)
+		{
+			const FString Msg = FString::Printf(
+				TEXT("VORGON  |  Awr: %.0f / %.0f (%.0f%%)  |  State: %s  |  LOS: %s  |  Dist: %.0f"),
+				Awareness,
+				MaxAwareness,
+				AwarenessNorm * 100.f,
+				*StateToString(State),
+				bHasLOS ? TEXT("Y") : TEXT("N"),
+				TargetDist
+			);
+
+			// key = 1 so we overwrite the same line every tick
+			GEngine->AddOnScreenDebugMessage(
+				1,
+				DebugDuration,
+				StateColor,  // matches bar color
+				Msg,
+				false
+			);
+		}
+
+		// OPTIONAL: tiny LOS line; comment out if you don't need it
 		if (TargetActor)
 		{
 			const FVector TargetHead = TargetActor->GetActorLocation() + FVector(0.f, 0.f, 60.f);
@@ -151,9 +205,10 @@ void USvc_UpdateAwareness::TickNode(
 				TargetHead,
 				bHasLOS ? FColor::Cyan : FColor(80, 80, 80),
 				false,
-				0.06f,
+				DebugDuration,
 				0,
-				1.5f);
+				.2f
+			);
 		}
 	}
 }

@@ -3,19 +3,11 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Perception/AIPerceptionTypes.h"
+#include "MonsterStates.h"
 #include "MonsterAwarenessComponent.generated.h"
 
 class AActor;
 
-UENUM(BlueprintType)
-enum class EMonsterState : uint8
-{
-	Patrol      UMETA(DisplayName = "Patrol"),
-	Investigate UMETA(DisplayName = "Investigate"),
-	Chase       UMETA(DisplayName = "Chase"),
-	Search      UMETA(DisplayName = "Search"),
-	Scream      UMETA(DisplayName = "Scream"),
-};
 
 UCLASS(ClassGroup = (AI), meta = (BlueprintSpawnableComponent))
 class UMonsterAwarenessComponent : public UActorComponent
