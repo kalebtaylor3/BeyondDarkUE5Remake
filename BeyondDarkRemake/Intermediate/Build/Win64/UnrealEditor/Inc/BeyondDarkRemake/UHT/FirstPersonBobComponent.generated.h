@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "FirstPersonBobComponent.h"
+// IWYU pragma: private, include "Player/Locomotion/FirstPersonBobComponent.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_FirstPersonBobComponent_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_13_DELEGATE \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_13_DELEGATE \
 BEYONDDARKREMAKE_API void FOnFootstep_DelegateWrapper(const FMulticastScriptDelegate& OnFootstep);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFirstPersonBobComponent(); \
 	friend struct Z_Construct_UClass_UFirstPersonBobComponent_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(UFirstPersonBobComponent)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UFirstPersonBobComponent(UFirstPersonBobComponent&&); \
@@ -39,12 +39,12 @@ public: \
 	NO_API virtual ~UFirstPersonBobComponent();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_15_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_18_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_15_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_18_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_18_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_18_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -52,7 +52,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UFirstPersonBobComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

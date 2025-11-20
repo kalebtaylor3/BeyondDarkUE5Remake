@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/DirectionalLeanCameraModifier.h"
+#include "BeyondDarkRemake/Public/Player/Camera/DirectionalLeanCameraModifier.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDirectionalLeanCameraModifier() {}
 
@@ -33,8 +33,8 @@ struct Z_Construct_UClass_UDirectionalLeanCameraModifier_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Runs inside PlayerCameraManager after control rotation.\n * We simply add pitch/roll to the final POV each frame.\n */" },
 #endif
-		{ "IncludePath", "DirectionalLeanCameraModifier.h" },
-		{ "ModuleRelativePath", "DirectionalLeanCameraModifier.h" },
+		{ "IncludePath", "Player/Camera/DirectionalLeanCameraModifier.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/DirectionalLeanCameraModifier.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Runs inside PlayerCameraManager after control rotation.\nWe simply add pitch/roll to the final POV each frame." },
 #endif
@@ -43,7 +43,7 @@ struct Z_Construct_UClass_UDirectionalLeanCameraModifier_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Set by your lean component each tick (degrees).\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanCameraModifier.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/DirectionalLeanCameraModifier.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set by your lean component each tick (degrees)." },
 #endif
@@ -53,7 +53,7 @@ struct Z_Construct_UClass_UDirectionalLeanCameraModifier_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Keep this high so we run late (after most modifiers).\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanCameraModifier.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/DirectionalLeanCameraModifier.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Keep this high so we run late (after most modifiers)." },
 #endif
@@ -112,14 +112,14 @@ UDirectionalLeanCameraModifier::~UDirectionalLeanCameraModifier() {}
 // End Class UDirectionalLeanCameraModifier
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDirectionalLeanCameraModifier, UDirectionalLeanCameraModifier::StaticClass, TEXT("UDirectionalLeanCameraModifier"), &Z_Registration_Info_UClass_UDirectionalLeanCameraModifier, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDirectionalLeanCameraModifier), 515000194U) },
+		{ Z_Construct_UClass_UDirectionalLeanCameraModifier, UDirectionalLeanCameraModifier::StaticClass, TEXT("UDirectionalLeanCameraModifier"), &Z_Registration_Info_UClass_UDirectionalLeanCameraModifier, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDirectionalLeanCameraModifier), 714576261U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_3228069559(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_1961849802(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

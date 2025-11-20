@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "DirectionalLeanCameraModifier.h"
+// IWYU pragma: private, include "Player/Camera/DirectionalLeanCameraModifier.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_DirectionalLeanCameraModifier_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDirectionalLeanCameraModifier(); \
 	friend struct Z_Construct_UClass_UDirectionalLeanCameraModifier_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(UDirectionalLeanCameraModifier)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UDirectionalLeanCameraModifier(UDirectionalLeanCameraModifier&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~UDirectionalLeanCameraModifier();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_11_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_14_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_11_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_14_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h_14_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_14_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UDirectionalLeanCameraModifier>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanCameraModifier_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_DirectionalLeanCameraModifier_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -6,7 +6,7 @@
         "PCH": "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\beyonddarkremakeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\beyonddarkremake\\definitions.beyonddarkremake.h",
-            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\beyonddarkremakecharacter.h",
+            "d:\\gamesimade\\beyonddarkue5remake\\beyonddarkremake\\source\\beyonddarkremake\\public\\player\\beyonddarkremakecharacter.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",

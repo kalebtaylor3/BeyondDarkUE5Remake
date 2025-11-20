@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/BeyondDarkRemakeWeaponComponent.h"
+#include "BeyondDarkRemake/Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBeyondDarkRemakeWeaponComponent() {}
 
@@ -39,7 +39,7 @@ struct Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_AttachWeapon_Stati
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Attaches the actor to a FirstPersonCharacter */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Attaches the actor to a FirstPersonCharacter" },
 #endif
@@ -95,7 +95,7 @@ struct Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_EndPlay_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Ends gameplay for this component. */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Ends gameplay for this component." },
 #endif
@@ -143,7 +143,7 @@ struct Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_Fire_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Make the weapon Fire a Projectile */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Make the weapon Fire a Projectile" },
 #endif
@@ -194,16 +194,16 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "Custom" },
 		{ "HideCategories", "Object Mesh|SkeletalAsset Object Mobility Trigger" },
-		{ "IncludePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "IncludePath", "Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 		{ "IsBlueprintBase", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[] = {
 		{ "Category", "Projectile" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Projectile class to spawn */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Projectile class to spawn" },
 #endif
@@ -213,7 +213,7 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sound to play each time we fire */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sound to play each time we fire" },
 #endif
@@ -223,7 +223,7 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** AnimMontage to play each time we fire */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AnimMontage to play each time we fire" },
 #endif
@@ -233,7 +233,7 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Gun muzzle's offset from the characters location */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gun muzzle's offset from the characters location" },
 #endif
@@ -244,7 +244,7 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** MappingContext */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MappingContext" },
 #endif
@@ -255,7 +255,7 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Fire Input Action */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeWeaponComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeWeaponComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fire Input Action" },
 #endif
@@ -270,9 +270,9 @@ struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_AttachWeapon, "AttachWeapon" }, // 1090320820
-		{ &Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_EndPlay, "EndPlay" }, // 598185489
-		{ &Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_Fire, "Fire" }, // 1966837707
+		{ &Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_AttachWeapon, "AttachWeapon" }, // 1935337728
+		{ &Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_EndPlay, "EndPlay" }, // 871411409
+		{ &Z_Construct_UFunction_UBeyondDarkRemakeWeaponComponent_Fire, "Fire" }, // 1569824680
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -332,14 +332,14 @@ UBeyondDarkRemakeWeaponComponent::~UBeyondDarkRemakeWeaponComponent() {}
 // End Class UBeyondDarkRemakeWeaponComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent, UBeyondDarkRemakeWeaponComponent::StaticClass, TEXT("UBeyondDarkRemakeWeaponComponent"), &Z_Registration_Info_UClass_UBeyondDarkRemakeWeaponComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBeyondDarkRemakeWeaponComponent), 3555636253U) },
+		{ Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent, UBeyondDarkRemakeWeaponComponent::StaticClass, TEXT("UBeyondDarkRemakeWeaponComponent"), &Z_Registration_Info_UClass_UBeyondDarkRemakeWeaponComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBeyondDarkRemakeWeaponComponent), 3924554093U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_1099082935(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_1785519457(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

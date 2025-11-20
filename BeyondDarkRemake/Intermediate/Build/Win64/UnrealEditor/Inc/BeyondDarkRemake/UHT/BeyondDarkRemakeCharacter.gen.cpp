@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/BeyondDarkRemakeCharacter.h"
+#include "BeyondDarkRemake/Public/Player/BeyondDarkRemakeCharacter.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBeyondDarkRemakeCharacter() {}
 
@@ -31,7 +31,7 @@ struct Z_Construct_UFunction_ABeyondDarkRemakeCharacter_ClearMove_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -60,7 +60,7 @@ struct Z_Construct_UFunction_ABeyondDarkRemakeCharacter_StartSprint_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -89,7 +89,7 @@ struct Z_Construct_UFunction_ABeyondDarkRemakeCharacter_StopSprint_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -134,8 +134,8 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "BeyondDarkRemakeCharacter.h" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "IncludePath", "Player/BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -144,7 +144,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 		{ "Comment", "/** Pawn mesh: 1st person view (arms; seen only by self) */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Pawn mesh: 1st person view (arms; seen only by self)" },
 #endif
@@ -156,7 +156,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 		{ "Comment", "/** First person camera */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "First person camera" },
 #endif
@@ -167,7 +167,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** MappingContext */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MappingContext" },
 #endif
@@ -178,7 +178,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Jump Input Action */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Jump Input Action" },
 #endif
@@ -189,7 +189,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Move Input Action */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Move Input Action" },
 #endif
@@ -197,7 +197,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LookAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -205,88 +205,88 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Look Input Action */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Look Input Action" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InteractAction_MetaData[] = {
 		{ "Category", "Input|Hiding" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ToggleDoorAction_MetaData[] = {
 		{ "Category", "Input|Hiding" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BobComp_MetaData[] = {
 		{ "Category", "Horror|Components" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FOVKickComp_MetaData[] = {
 		{ "Category", "Horror|Components" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StickyMoveComp_MetaData[] = {
 		{ "Category", "Horror|Components" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LookSwayComp_MetaData[] = {
 		{ "Category", "Horror|Components" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanComp_MetaData[] = {
 		{ "Category", "Horror|Components" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsSprinting_MetaData[] = {
 		{ "Category", "Horror|State" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WalkSpeedBase_MetaData[] = {
 		{ "Category", "Horror|Speed" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintSpeedBase_MetaData[] = {
 		{ "Category", "Horror|Speed" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ForwardMult_MetaData[] = {
 		{ "Category", "Horror|Speed" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeMult_MetaData[] = {
 		{ "Category", "Horror|Speed" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackwardMult_MetaData[] = {
 		{ "Category", "Horror|Speed" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintStrafeMult_MetaData[] = {
 		{ "Category", "Horror|Speed" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Optional: different penalties while sprinting (feels more \xef\xbf\xbdsurvival horror\xef\xbf\xbd)\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional: different penalties while sprinting (feels more \xef\xbf\xbdsurvival horror\xef\xbf\xbd)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintBackwardMult_MetaData[] = {
 		{ "Category", "Horror|Speed" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpeedInterpRate_MetaData[] = {
 		{ "Category", "Horror|Speed" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// How quickly we blend between target speeds (heavier feel = lower)\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How quickly we blend between target speeds (heavier feel = lower)" },
 #endif
@@ -296,7 +296,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// === Crouch ===\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "=== Crouch ===" },
 #endif
@@ -306,7 +306,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// true = toggle, false = hold\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "true = toggle, false = hold" },
 #endif
@@ -316,7 +316,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// standing is 96 by default in your ctor\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "standing is 96 by default in your ctor" },
 #endif
@@ -326,25 +326,25 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// how far to lower the eye (cm)\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "how far to lower the eye (cm)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CrouchUpTime_MetaData[] = {
 		{ "Category", "Horror|Crouch" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CrouchEase_MetaData[] = {
 		{ "Category", "Horror|Crouch" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CrouchSpeedMult_MetaData[] = {
 		{ "Category", "Horror|Crouch" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// X=t in [0..1], Y=alpha in [0..1]. If null, uses smoothstep.\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "X=t in [0..1], Y=alpha in [0..1]. If null, uses smoothstep." },
 #endif
@@ -354,7 +354,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// (Optional) bind in editor\n" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/BeyondDarkRemakeCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "(Optional) bind in editor" },
 #endif
@@ -396,9 +396,9 @@ struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ABeyondDarkRemakeCharacter_ClearMove, "ClearMove" }, // 1663758609
-		{ &Z_Construct_UFunction_ABeyondDarkRemakeCharacter_StartSprint, "StartSprint" }, // 2695780039
-		{ &Z_Construct_UFunction_ABeyondDarkRemakeCharacter_StopSprint, "StopSprint" }, // 284614229
+		{ &Z_Construct_UFunction_ABeyondDarkRemakeCharacter_ClearMove, "ClearMove" }, // 960314167
+		{ &Z_Construct_UFunction_ABeyondDarkRemakeCharacter_StartSprint, "StartSprint" }, // 537865470
+		{ &Z_Construct_UFunction_ABeyondDarkRemakeCharacter_StopSprint, "StopSprint" }, // 3703187149
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -516,14 +516,14 @@ ABeyondDarkRemakeCharacter::~ABeyondDarkRemakeCharacter() {}
 // End Class ABeyondDarkRemakeCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABeyondDarkRemakeCharacter, ABeyondDarkRemakeCharacter::StaticClass, TEXT("ABeyondDarkRemakeCharacter"), &Z_Registration_Info_UClass_ABeyondDarkRemakeCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeyondDarkRemakeCharacter), 3117834521U) },
+		{ Z_Construct_UClass_ABeyondDarkRemakeCharacter, ABeyondDarkRemakeCharacter::StaticClass, TEXT("ABeyondDarkRemakeCharacter"), &Z_Registration_Info_UClass_ABeyondDarkRemakeCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeyondDarkRemakeCharacter), 3008495752U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_1475156476(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_3496649038(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

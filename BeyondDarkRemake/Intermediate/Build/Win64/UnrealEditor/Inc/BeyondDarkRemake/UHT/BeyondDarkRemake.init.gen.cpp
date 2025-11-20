@@ -29,13 +29,13 @@ void EmptyLinkFunctionForGeneratedCodeBeyondDarkRemake_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x0843C7A6,
-				0xC87FB146,
+				0x8814BD6A,
+				0xE5E2589D,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_BeyondDarkRemake.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_BeyondDarkRemake.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BeyondDarkRemake(Z_Construct_UPackage__Script_BeyondDarkRemake, TEXT("/Script/BeyondDarkRemake"), Z_Registration_Info_UPackage__Script_BeyondDarkRemake, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0843C7A6, 0xC87FB146));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_BeyondDarkRemake(Z_Construct_UPackage__Script_BeyondDarkRemake, TEXT("/Script/BeyondDarkRemake"), Z_Registration_Info_UPackage__Script_BeyondDarkRemake, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x8814BD6A, 0xE5E2589D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

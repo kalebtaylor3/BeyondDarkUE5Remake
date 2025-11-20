@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/ModularHidingSpot.h"
+#include "BeyondDarkRemake/Public/Player/Interaction/HidingSpots/ModularHidingSpot.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeModularHidingSpot() {}
 
@@ -32,13 +32,13 @@ struct Z_Construct_UClass_AModularHidingSpot_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-		{ "IncludePath", "ModularHidingSpot.h" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "IncludePath", "Player/Interaction/HidingSpots/ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[] = {
 		{ "Category", "Hiding" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ContainerMesh_MetaData[] = {
 		{ "Category", "Hiding" },
@@ -46,7 +46,7 @@ struct Z_Construct_UClass_AModularHidingSpot_Statics
 		{ "Comment", "/** The static mesh (locker/chest) */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The static mesh (locker/chest)" },
 #endif
@@ -57,7 +57,7 @@ struct Z_Construct_UClass_AModularHidingSpot_Statics
 		{ "Comment", "/** The door/lid mesh */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The door/lid mesh" },
 #endif
@@ -68,7 +68,7 @@ struct Z_Construct_UClass_AModularHidingSpot_Statics
 		{ "Comment", "/** Entry & Exit helper points */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Entry & Exit helper points" },
 #endif
@@ -76,12 +76,12 @@ struct Z_Construct_UClass_AModularHidingSpot_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExitPoint_MetaData[] = {
 		{ "Category", "Hiding" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HidingSpot_MetaData[] = {
 		{ "Category", "Hiding" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "ModularHidingSpot.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/ModularHidingSpot.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Root;
@@ -149,14 +149,14 @@ AModularHidingSpot::~AModularHidingSpot() {}
 // End Class AModularHidingSpot
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_ModularHidingSpot_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_ModularHidingSpot_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AModularHidingSpot, AModularHidingSpot::StaticClass, TEXT("AModularHidingSpot"), &Z_Registration_Info_UClass_AModularHidingSpot, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AModularHidingSpot), 3938675280U) },
+		{ Z_Construct_UClass_AModularHidingSpot, AModularHidingSpot::StaticClass, TEXT("AModularHidingSpot"), &Z_Registration_Info_UClass_AModularHidingSpot, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AModularHidingSpot), 1069029050U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_ModularHidingSpot_h_2204283486(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_ModularHidingSpot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_ModularHidingSpot_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_ModularHidingSpot_h_178567089(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_ModularHidingSpot_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_ModularHidingSpot_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

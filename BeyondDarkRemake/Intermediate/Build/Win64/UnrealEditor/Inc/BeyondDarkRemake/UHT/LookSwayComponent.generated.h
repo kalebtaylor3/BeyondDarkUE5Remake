@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "LookSwayComponent.h"
+// IWYU pragma: private, include "Player/Camera/LookSwayComponent.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_LookSwayComponent_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execAddLookInput);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesULookSwayComponent(); \
 	friend struct Z_Construct_UClass_ULookSwayComponent_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(ULookSwayComponent)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ULookSwayComponent(ULookSwayComponent&&); \
@@ -39,13 +39,13 @@ public: \
 	NO_API virtual ~ULookSwayComponent();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_9_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_9_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_12_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -53,7 +53,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class ULookSwayComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

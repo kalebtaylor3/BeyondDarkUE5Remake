@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/HideableCharacter.h"
+#include "BeyondDarkRemake/Public/Player/Interaction/HidingSpots/HideableCharacter.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHideableCharacter() {}
 
@@ -51,7 +51,7 @@ struct Z_Construct_UFunction_UHideableCharacter_OnEnterHiding_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called after the pawn has been snapped inside a hiding spot */" },
 #endif
-		{ "ModuleRelativePath", "HideableCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HideableCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called after the pawn has been snapped inside a hiding spot" },
 #endif
@@ -124,7 +124,7 @@ struct Z_Construct_UFunction_UHideableCharacter_OnExitHiding_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Called right before the pawn is released from the hiding spot */" },
 #endif
-		{ "ModuleRelativePath", "HideableCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HideableCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Called right before the pawn is released from the hiding spot" },
 #endif
@@ -183,13 +183,13 @@ struct Z_Construct_UClass_UHideableCharacter_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-		{ "ModuleRelativePath", "HideableCharacter.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HideableCharacter.h" },
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UHideableCharacter_OnEnterHiding, "OnEnterHiding" }, // 805900582
-		{ &Z_Construct_UFunction_UHideableCharacter_OnExitHiding, "OnExitHiding" }, // 910856663
+		{ &Z_Construct_UFunction_UHideableCharacter_OnEnterHiding, "OnEnterHiding" }, // 2466442202
+		{ &Z_Construct_UFunction_UHideableCharacter_OnExitHiding, "OnExitHiding" }, // 1078997948
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -235,14 +235,14 @@ UHideableCharacter::~UHideableCharacter() {}
 // End Interface UHideableCharacter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UHideableCharacter, UHideableCharacter::StaticClass, TEXT("UHideableCharacter"), &Z_Registration_Info_UClass_UHideableCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHideableCharacter), 2457040371U) },
+		{ Z_Construct_UClass_UHideableCharacter, UHideableCharacter::StaticClass, TEXT("UHideableCharacter"), &Z_Registration_Info_UClass_UHideableCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHideableCharacter), 3047465260U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_2900320450(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_690459209(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

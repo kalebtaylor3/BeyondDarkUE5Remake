@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "BeyondDarkRemakeCharacter.h"
+// IWYU pragma: private, include "Player/BeyondDarkRemakeCharacter.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,13 +14,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_BeyondDarkRemakeCharacter_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execClearMove); \
 	DECLARE_FUNCTION(execStopSprint); \
 	DECLARE_FUNCTION(execStartSprint);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABeyondDarkRemakeCharacter(); \
 	friend struct Z_Construct_UClass_ABeyondDarkRemakeCharacter_Statics; \
@@ -29,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(ABeyondDarkRemakeCharacter)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABeyondDarkRemakeCharacter(ABeyondDarkRemakeCharacter&&); \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~ABeyondDarkRemakeCharacter();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_20_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_20_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h_23_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,7 +55,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class ABeyondDarkRemakeCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeCharacter_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_BeyondDarkRemakeCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

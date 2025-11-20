@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "HideableCharacter.h"
+// IWYU pragma: private, include "Player/Interaction/HidingSpots/HideableCharacter.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -15,15 +15,15 @@ class UHidingSpotComponent;
 #endif
 #define BEYONDDARKREMAKE_HideableCharacter_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void OnExitHiding_Implementation(UHidingSpotComponent* Spot) {}; \
 	virtual void OnEnterHiding_Implementation(UHidingSpotComponent* Spot) {}; \
 	DECLARE_FUNCTION(execOnExitHiding); \
 	DECLARE_FUNCTION(execOnEnterHiding);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_CALLBACK_WRAPPERS
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_CALLBACK_WRAPPERS
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHideableCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,7 +37,7 @@ public: \
 	NO_API virtual ~UHideableCharacter();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_GENERATED_UINTERFACE_BODY() \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUHideableCharacter(); \
 	friend struct Z_Construct_UClass_UHideableCharacter_Statics; \
@@ -46,15 +46,15 @@ public: \
 	DECLARE_SERIALIZER(UHideableCharacter)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_GENERATED_UINTERFACE_BODY() \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_GENERATED_UINTERFACE_BODY() \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IHideableCharacter() {} \
 public: \
@@ -65,13 +65,13 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_8_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_16_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_8_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_CALLBACK_WRAPPERS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h_11_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_CALLBACK_WRAPPERS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h_11_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -79,7 +79,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UHideableCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_HideableCharacter_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HideableCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

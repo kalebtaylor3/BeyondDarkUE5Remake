@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "BeyondDarkRemakeProjectile.h"
+// IWYU pragma: private, include "Player/Interaction/BeyondDarkRemakeProjectile.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -17,11 +17,11 @@ struct FHitResult;
 #endif
 #define BEYONDDARKREMAKE_BeyondDarkRemakeProjectile_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnHit);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABeyondDarkRemakeProjectile(); \
 	friend struct Z_Construct_UClass_ABeyondDarkRemakeProjectile_Statics; \
@@ -32,7 +32,7 @@ public: \
 
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABeyondDarkRemakeProjectile(ABeyondDarkRemakeProjectile&&); \
@@ -44,13 +44,13 @@ public: \
 	NO_API virtual ~ABeyondDarkRemakeProjectile();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_12_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_12_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_15_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,7 +58,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class ABeyondDarkRemakeProjectile>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

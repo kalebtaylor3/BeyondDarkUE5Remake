@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "BeyondDarkRemakeWeaponComponent.h"
+// IWYU pragma: private, include "Player/Interaction/BeyondDarkRemakeWeaponComponent.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -15,13 +15,13 @@ class ABeyondDarkRemakeCharacter;
 #endif
 #define BEYONDDARKREMAKE_BeyondDarkRemakeWeaponComponent_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execEndPlay); \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execAttachWeapon);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUBeyondDarkRemakeWeaponComponent(); \
 	friend struct Z_Construct_UClass_UBeyondDarkRemakeWeaponComponent_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UBeyondDarkRemakeWeaponComponent)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UBeyondDarkRemakeWeaponComponent(UBeyondDarkRemakeWeaponComponent&&); \
@@ -42,13 +42,13 @@ public: \
 	NO_API virtual ~UBeyondDarkRemakeWeaponComponent();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_11_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_11_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,7 +56,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UBeyondDarkRemakeWeaponComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeWeaponComponent_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeWeaponComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

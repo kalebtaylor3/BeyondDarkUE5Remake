@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_BeyondDarkRemakeGameMode_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABeyondDarkRemakeGameMode(); \
 	friend struct Z_Construct_UClass_ABeyondDarkRemakeGameMode_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(ABeyondDarkRemakeGameMode)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ABeyondDarkRemakeGameMode(ABeyondDarkRemakeGameMode&&); \
@@ -35,12 +35,12 @@ public: \
 	BEYONDDARKREMAKE_API virtual ~ABeyondDarkRemakeGameMode();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_9_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_12_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_9_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class ABeyondDarkRemakeGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

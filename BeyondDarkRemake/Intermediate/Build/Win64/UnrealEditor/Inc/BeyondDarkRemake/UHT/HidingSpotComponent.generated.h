@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "HidingSpotComponent.h"
+// IWYU pragma: private, include "Player/Interaction/HidingSpots/HidingSpotComponent.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -15,19 +15,19 @@ class APawn;
 #endif
 #define BEYONDDARKREMAKE_HidingSpotComponent_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_27_DELEGATE \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_27_DELEGATE \
 BEYONDDARKREMAKE_API void FOnHidingEnter_DelegateWrapper(const FMulticastScriptDelegate& OnHidingEnter, APawn* Pawn);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_28_DELEGATE \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_28_DELEGATE \
 BEYONDDARKREMAKE_API void FOnHidingExit_DelegateWrapper(const FMulticastScriptDelegate& OnHidingExit, APawn* Pawn);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_29_DELEGATE \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_29_DELEGATE \
 BEYONDDARKREMAKE_API void FOnDoorTargetChanged_DelegateWrapper(const FMulticastScriptDelegate& OnDoorTargetChanged, float TargetAlpha);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execEndDoorManipulation); \
 	DECLARE_FUNCTION(execDriveDoorAxis); \
 	DECLARE_FUNCTION(execBeginDoorManipulation); \
@@ -48,15 +48,15 @@ BEYONDDARKREMAKE_API void FOnDoorTargetChanged_DelegateWrapper(const FMulticastS
 
 
 #if WITH_EDITOR
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS_EOD \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS_EOD \
 	DECLARE_FUNCTION(execSnapOpenFromCurrent); \
 	DECLARE_FUNCTION(execSnapClosedFromCurrent);
 #else // WITH_EDITOR
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS_EOD
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS_EOD
 #endif // WITH_EDITOR
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHidingSpotComponent(); \
 	friend struct Z_Construct_UClass_UHidingSpotComponent_Statics; \
@@ -65,7 +65,7 @@ public: \
 	DECLARE_SERIALIZER(UHidingSpotComponent)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UHidingSpotComponent(UHidingSpotComponent&&); \
@@ -77,14 +77,14 @@ public: \
 	NO_API virtual ~UHidingSpotComponent();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_31_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_31_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS_EOD \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_34_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_RPC_WRAPPERS_NO_PURE_DECLS_EOD \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -92,7 +92,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UHidingSpotComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h
 
 
 #define FOREACH_ENUM_EHIDINGDOORTYPE(op) \

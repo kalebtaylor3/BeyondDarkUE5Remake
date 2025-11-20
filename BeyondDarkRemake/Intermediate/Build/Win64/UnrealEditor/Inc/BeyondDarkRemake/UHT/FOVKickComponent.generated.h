@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "FOVKickComponent.h"
+// IWYU pragma: private, include "Player/Camera/FOVKickComponent.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_FOVKickComponent_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execSetSprinting);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFOVKickComponent(); \
 	friend struct Z_Construct_UClass_UFOVKickComponent_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(UFOVKickComponent)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UFOVKickComponent(UFOVKickComponent&&); \
@@ -39,13 +39,13 @@ public: \
 	NO_API virtual ~UFOVKickComponent();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_12_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_12_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_15_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -53,7 +53,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UFOVKickComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

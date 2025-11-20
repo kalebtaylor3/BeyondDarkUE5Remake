@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/HidingSpotComponent.h"
+#include "BeyondDarkRemake/Public/Player/Interaction/HidingSpots/HidingSpotComponent.h"
 #include "Runtime/Engine/Classes/Engine/EngineTypes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeHidingSpotComponent() {}
@@ -51,7 +51,7 @@ struct Z_Construct_UEnum_BeyondDarkRemake_EHidingDoorType_Statics
 		{ "Hinged.Name", "EHidingDoorType::Hinged" },
 		{ "Lid.DisplayName", "Lid" },
 		{ "Lid.Name", "EHidingDoorType::Lid" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 		{ "None.DisplayName", "None" },
 		{ "None.Name", "EHidingDoorType::None" },
 		{ "Sliding.DisplayName", "Sliding" },
@@ -111,7 +111,7 @@ struct Z_Construct_UEnum_BeyondDarkRemake_EDoorOpenInput_Statics
 		{ "Forward.Name", "EDoorOpenInput::Forward" },
 		{ "Left.DisplayName", "Left (A)" },
 		{ "Left.Name", "EDoorOpenInput::Left" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 		{ "Right.DisplayName", "Right (D)" },
 		{ "Right.Name", "EDoorOpenInput::Right" },
 	};
@@ -154,7 +154,7 @@ struct Z_Construct_UDelegateFunction_BeyondDarkRemake_OnHidingEnter__DelegateSig
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Pawn;
@@ -198,7 +198,7 @@ struct Z_Construct_UDelegateFunction_BeyondDarkRemake_OnHidingExit__DelegateSign
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Pawn;
@@ -242,7 +242,7 @@ struct Z_Construct_UDelegateFunction_BeyondDarkRemake_OnDoorTargetChanged__Deleg
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_TargetAlpha;
@@ -290,7 +290,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_BeginDoorManipulation_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// API\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "API" },
 #endif
@@ -340,7 +340,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_CanEnter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Is it safe/allowed to enter now? */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Is it safe/allowed to enter now?" },
 #endif
@@ -395,7 +395,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_DriveDoorAxis_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Hiding|Control" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Axis;
@@ -446,7 +446,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_DriveDoorWhileHidden_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Drive door by a single scalar axis while hidden (Axis in [-1,1])\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Drive door by a single scalar axis while hidden (Axis in [-1,1])" },
 #endif
@@ -495,7 +495,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_EndDoorManipulation_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Axis in [-1,1]\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Axis in [-1,1]" },
 #endif
@@ -538,7 +538,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_Enter_Statics
 		{ "Comment", "/** Begin hiding sequence (snaps pawn, closes door if desired) */" },
 #endif
 		{ "CPP_Default_bAutoClose", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Begin hiding sequence (snaps pawn, closes door if desired)" },
 #endif
@@ -606,7 +606,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_Exit_Statics
 		{ "Comment", "/** Exit sequence */" },
 #endif
 		{ "CPP_Default_bAutoOpen", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Exit sequence" },
 #endif
@@ -668,7 +668,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_ForceExit_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Forces release even if locked (use with care) */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Forces release even if locked (use with care)" },
 #endif
@@ -721,7 +721,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// A simple exposure heuristic based on door openness & your peek curve.\n// 0 = fully safe, 1 = fully exposed.\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A simple exposure heuristic based on door openness & your peek curve.\n0 = fully safe, 1 = fully exposed." },
 #endif
@@ -766,7 +766,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_GetOccupant_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Hiding|AI" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
@@ -810,7 +810,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_GetPeekForPawn_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Hiding|Peek" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Pawn;
@@ -864,7 +864,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation_S
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Where the monster should face/grab when ripping out.\n// Defaults to Door component, falls back to EntryPoint or the owner root.\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Where the monster should face/grab when ripping out.\nDefaults to Door component, falls back to EntryPoint or the owner root." },
 #endif
@@ -909,7 +909,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_IsOccupied_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Hiding|AI" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -959,7 +959,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_OpenTo_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Command a new target alpha [0..1] */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Command a new target alpha [0..1]" },
 #endif
@@ -1006,7 +1006,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_SnapClosedFromCurrent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Quick helpers while setting up: capture the current local as CLOSED/OPEN refs */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Quick helpers while setting up: capture the current local as CLOSED/OPEN refs" },
 #endif
@@ -1044,7 +1044,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_SnapOpenFromCurrent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "CallInEditor", "true" },
 		{ "Category", "Hiding|Editor" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -1085,7 +1085,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_StartAutoEnter_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Tap-to-hide glide\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Tap-to-hide glide" },
 #endif
@@ -1141,7 +1141,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_StartAutoExit_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Hiding|Control" },
 		{ "CPP_Default_bAlsoOpenDoor", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static void NewProp_bAlsoOpenDoor_SetBit(void* Obj);
@@ -1196,7 +1196,7 @@ struct Z_Construct_UFunction_UHidingSpotComponent_ToggleOpen_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Tries to toggle (close->open / open->close) */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Tries to toggle (close->open / open->close)" },
 #endif
@@ -1263,45 +1263,45 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "BeyondDark" },
-		{ "IncludePath", "HidingSpotComponent.h" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "IncludePath", "Player/Interaction/HidingSpots/HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EntryPointRef_MetaData[] = {
 		{ "Category", "Hiding|Setup" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExitPointRef_MetaData[] = {
 		{ "Category", "Hiding|Setup" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DoorRef_MetaData[] = {
 		{ "Category", "Hiding|Door" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EntryPoint_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ---- Resolved pointers (runtime, not editable) ----\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "---- Resolved pointers (runtime, not editable) ----" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExitPoint_MetaData[] = {
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DoorComponent_MetaData[] = {
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DoorType_MetaData[] = {
 		{ "Category", "Hiding|Door" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Movement type for the \xef\xbf\xbd""door\xef\xbf\xbd */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Movement type for the \xef\xbf\xbd""door\xef\xbf\xbd" },
 #endif
@@ -1313,7 +1313,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #endif
 		{ "EditCondition", "DoorType==EHidingDoorType::Sliding" },
 		{ "EditConditionHides", "" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Local-space open pose for the door (interpreted depending on DoorType)" },
 #endif
@@ -1325,7 +1325,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #endif
 		{ "EditCondition", "DoorType==EHidingDoorType::Hinged || DoorType==EHidingDoorType::Lid" },
 		{ "EditConditionHides", "" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "For Hinged/Lid: degrees of rotation when fully open (positive or negative ok)" },
 #endif
@@ -1335,7 +1335,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Door animation speed (alpha per second) */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Door animation speed (alpha per second)" },
 #endif
@@ -1345,7 +1345,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional easing curve for door alpha [0..1] */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional easing curve for door alpha [0..1]" },
 #endif
@@ -1355,7 +1355,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Minimum open alpha required to allow entering */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Minimum open alpha required to allow entering" },
 #endif
@@ -1365,7 +1365,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Lock prevents opening/closing and entering/exiting (except forced) */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Lock prevents opening/closing and entering/exiting (except forced)" },
 #endif
@@ -1375,7 +1375,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, we\xef\xbf\xbdll temporarily disable the pawn\xef\xbf\xbds movement when inside */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, we\xef\xbf\xbdll temporarily disable the pawn\xef\xbf\xbds movement when inside" },
 #endif
@@ -1385,7 +1385,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If true, we\xef\xbf\xbdll make the pawn harder to detect (AI integrations left to you) */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If true, we\xef\xbf\xbdll make the pawn harder to detect (AI integrations left to you)" },
 #endif
@@ -1395,7 +1395,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Current open [0..1] */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Current open [0..1]" },
 #endif
@@ -1405,7 +1405,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** True if occupied */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "True if occupied" },
 #endif
@@ -1415,25 +1415,25 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Who\xef\xbf\xbds inside (if any) */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Who\xef\xbf\xbds inside (if any)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseSmoothExit_MetaData[] = {
 		{ "Category", "Hiding|Exit" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AutoExitDuration_MetaData[] = {
 		{ "Category", "Hiding|Exit" },
 		{ "ClampMin", "0.05" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 		{ "UIMax", "2.0" },
 		{ "UIMin", "0.1" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AutoExitEase_MetaData[] = {
 		{ "Category", "Hiding|Exit" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExitTargetOpenAlpha_MetaData[] = {
 		{ "Category", "Hiding|Exit" },
@@ -1442,7 +1442,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How open the door should be while exiting (0..1). 1 = fully open. */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How open the door should be while exiting (0..1). 1 = fully open." },
 #endif
@@ -1453,7 +1453,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Keep the door from relaxing for a short time after exit completes. */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Keep the door from relaxing for a short time after exit completes." },
 #endif
@@ -1465,25 +1465,25 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Blueprint events */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Blueprint events" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnExit_MetaData[] = {
 		{ "Category", "Hiding|Events" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnDoorTargetChanged_MetaData[] = {
 		{ "Category", "Hiding|Events" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OpenInputMode_MetaData[] = {
 		{ "Category", "Hiding|Door" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ---- Config you can tune per spot ----\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "---- Config you can tune per spot ----" },
 #endif
@@ -1493,7 +1493,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Ignore tiny stick/keyboard noise */" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Ignore tiny stick/keyboard noise" },
 #endif
@@ -1503,7 +1503,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// --- Outlast-style control & auto-enter options ---\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "--- Outlast-style control & auto-enter options ---" },
 #endif
@@ -1513,7 +1513,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// alpha/sec when you \"push\" the door\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "alpha/sec when you \"push\" the door" },
 #endif
@@ -1523,7 +1523,7 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// alpha/sec back toward closed when released\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "alpha/sec back toward closed when released" },
 #endif
@@ -1533,39 +1533,39 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// seconds to glide into the spot\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "seconds to glide into the spot" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PeekMaxDistance_MetaData[] = {
 		{ "Category", "Hiding|Peek" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PeekYawMaxDegrees_MetaData[] = {
 		{ "Category", "Hiding|Peek" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// How much to yaw the camera (look past the door) at full open\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How much to yaw the camera (look past the door) at full open" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PeekCurve_MetaData[] = {
 		{ "Category", "Hiding|Peek" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SeatPointRef_MetaData[] = {
 		{ "Category", "Hiding|Setup" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PeekDirBasisRef_MetaData[] = {
 		{ "Category", "Hiding|Peek" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Optional: use this as the basis for peek direction; if unset we use DoorComponent (fallback Root)\n" },
 #endif
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional: use this as the basis for peek direction; if unset we use DoorComponent (fallback Root)" },
 #endif
@@ -1575,14 +1575,14 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 		{ "Comment", "// Resolved at runtime (not editable)\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Resolved at runtime (not editable)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PeekDirBasis_MetaData[] = {
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "HidingSpotComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/HidingSpots/HidingSpotComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_EntryPointRef;
@@ -1634,27 +1634,27 @@ struct Z_Construct_UClass_UHidingSpotComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UHidingSpotComponent_BeginDoorManipulation, "BeginDoorManipulation" }, // 3659585522
-		{ &Z_Construct_UFunction_UHidingSpotComponent_CanEnter, "CanEnter" }, // 1421159603
-		{ &Z_Construct_UFunction_UHidingSpotComponent_DriveDoorAxis, "DriveDoorAxis" }, // 124251240
-		{ &Z_Construct_UFunction_UHidingSpotComponent_DriveDoorWhileHidden, "DriveDoorWhileHidden" }, // 3469444792
-		{ &Z_Construct_UFunction_UHidingSpotComponent_EndDoorManipulation, "EndDoorManipulation" }, // 27955270
-		{ &Z_Construct_UFunction_UHidingSpotComponent_Enter, "Enter" }, // 697671534
-		{ &Z_Construct_UFunction_UHidingSpotComponent_Exit, "Exit" }, // 1462218694
-		{ &Z_Construct_UFunction_UHidingSpotComponent_ForceExit, "ForceExit" }, // 3623052641
-		{ &Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI, "GetExposureForAI" }, // 986193010
-		{ &Z_Construct_UFunction_UHidingSpotComponent_GetOccupant, "GetOccupant" }, // 1615689983
-		{ &Z_Construct_UFunction_UHidingSpotComponent_GetPeekForPawn, "GetPeekForPawn" }, // 2651734005
-		{ &Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation, "GetRipOutHandleWorldLocation" }, // 3069795882
-		{ &Z_Construct_UFunction_UHidingSpotComponent_IsOccupied, "IsOccupied" }, // 2340742295
-		{ &Z_Construct_UFunction_UHidingSpotComponent_OpenTo, "OpenTo" }, // 4274210128
+		{ &Z_Construct_UFunction_UHidingSpotComponent_BeginDoorManipulation, "BeginDoorManipulation" }, // 2665621288
+		{ &Z_Construct_UFunction_UHidingSpotComponent_CanEnter, "CanEnter" }, // 3292230807
+		{ &Z_Construct_UFunction_UHidingSpotComponent_DriveDoorAxis, "DriveDoorAxis" }, // 3856967653
+		{ &Z_Construct_UFunction_UHidingSpotComponent_DriveDoorWhileHidden, "DriveDoorWhileHidden" }, // 1599077721
+		{ &Z_Construct_UFunction_UHidingSpotComponent_EndDoorManipulation, "EndDoorManipulation" }, // 3110589017
+		{ &Z_Construct_UFunction_UHidingSpotComponent_Enter, "Enter" }, // 3718986219
+		{ &Z_Construct_UFunction_UHidingSpotComponent_Exit, "Exit" }, // 2861279882
+		{ &Z_Construct_UFunction_UHidingSpotComponent_ForceExit, "ForceExit" }, // 876228062
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetExposureForAI, "GetExposureForAI" }, // 3330908110
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetOccupant, "GetOccupant" }, // 1926799866
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetPeekForPawn, "GetPeekForPawn" }, // 2789919448
+		{ &Z_Construct_UFunction_UHidingSpotComponent_GetRipOutHandleWorldLocation, "GetRipOutHandleWorldLocation" }, // 859462907
+		{ &Z_Construct_UFunction_UHidingSpotComponent_IsOccupied, "IsOccupied" }, // 2990195663
+		{ &Z_Construct_UFunction_UHidingSpotComponent_OpenTo, "OpenTo" }, // 3316228898
 #if WITH_EDITOR
-		{ &Z_Construct_UFunction_UHidingSpotComponent_SnapClosedFromCurrent, "SnapClosedFromCurrent" }, // 3095179587
-		{ &Z_Construct_UFunction_UHidingSpotComponent_SnapOpenFromCurrent, "SnapOpenFromCurrent" }, // 2047005337
+		{ &Z_Construct_UFunction_UHidingSpotComponent_SnapClosedFromCurrent, "SnapClosedFromCurrent" }, // 284817112
+		{ &Z_Construct_UFunction_UHidingSpotComponent_SnapOpenFromCurrent, "SnapOpenFromCurrent" }, // 2153983140
 #endif // WITH_EDITOR
-		{ &Z_Construct_UFunction_UHidingSpotComponent_StartAutoEnter, "StartAutoEnter" }, // 898901779
-		{ &Z_Construct_UFunction_UHidingSpotComponent_StartAutoExit, "StartAutoExit" }, // 547998346
-		{ &Z_Construct_UFunction_UHidingSpotComponent_ToggleOpen, "ToggleOpen" }, // 3617890139
+		{ &Z_Construct_UFunction_UHidingSpotComponent_StartAutoEnter, "StartAutoEnter" }, // 4160870474
+		{ &Z_Construct_UFunction_UHidingSpotComponent_StartAutoExit, "StartAutoExit" }, // 1826387444
+		{ &Z_Construct_UFunction_UHidingSpotComponent_ToggleOpen, "ToggleOpen" }, // 427626689
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1669,7 +1669,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UHidingSpotCom
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_ExitPoint = { "ExitPoint", nullptr, (EPropertyFlags)0x0114000000082008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, ExitPoint), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExitPoint_MetaData), NewProp_ExitPoint_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorComponent = { "DoorComponent", nullptr, (EPropertyFlags)0x0114000000082008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, DoorComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorComponent_MetaData), NewProp_DoorComponent_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorType = { "DoorType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, DoorType), Z_Construct_UEnum_BeyondDarkRemake_EHidingDoorType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorType_MetaData), NewProp_DoorType_MetaData) }; // 723507413
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorType = { "DoorType", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, DoorType), Z_Construct_UEnum_BeyondDarkRemake_EHidingDoorType, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorType_MetaData), NewProp_DoorType_MetaData) }; // 4124047101
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_SlideOffsetLocal = { "SlideOffsetLocal", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, SlideOffsetLocal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SlideOffsetLocal_MetaData), NewProp_SlideOffsetLocal_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OpenRotationLocal = { "OpenRotationLocal", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OpenRotationLocal), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OpenRotationLocal_MetaData), NewProp_OpenRotationLocal_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorSpeed = { "DoorSpeed", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, DoorSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorSpeed_MetaData), NewProp_DoorSpeed_MetaData) };
@@ -1706,11 +1706,11 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComp
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_AutoExitEase = { "AutoExitEase", nullptr, (EPropertyFlags)0x0114000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, AutoExitEase), Z_Construct_UClass_UCurveFloat_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AutoExitEase_MetaData), NewProp_AutoExitEase_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_ExitTargetOpenAlpha = { "ExitTargetOpenAlpha", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, ExitTargetOpenAlpha), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExitTargetOpenAlpha_MetaData), NewProp_ExitTargetOpenAlpha_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_ExitDoorHoldTime = { "ExitDoorHoldTime", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, ExitDoorHoldTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExitDoorHoldTime_MetaData), NewProp_ExitDoorHoldTime_MetaData) };
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OnEnter = { "OnEnter", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OnEnter), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnHidingEnter__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEnter_MetaData), NewProp_OnEnter_MetaData) }; // 340474871
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OnExit = { "OnExit", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OnExit), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnHidingExit__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnExit_MetaData), NewProp_OnExit_MetaData) }; // 1602752124
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OnDoorTargetChanged = { "OnDoorTargetChanged", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OnDoorTargetChanged), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnDoorTargetChanged__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnDoorTargetChanged_MetaData), NewProp_OnDoorTargetChanged_MetaData) }; // 3496082190
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OnEnter = { "OnEnter", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OnEnter), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnHidingEnter__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnEnter_MetaData), NewProp_OnEnter_MetaData) }; // 1408188039
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OnExit = { "OnExit", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OnExit), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnHidingExit__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnExit_MetaData), NewProp_OnExit_MetaData) }; // 4067560950
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OnDoorTargetChanged = { "OnDoorTargetChanged", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OnDoorTargetChanged), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnDoorTargetChanged__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnDoorTargetChanged_MetaData), NewProp_OnDoorTargetChanged_MetaData) }; // 2056182284
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OpenInputMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OpenInputMode = { "OpenInputMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OpenInputMode), Z_Construct_UEnum_BeyondDarkRemake_EDoorOpenInput, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OpenInputMode_MetaData), NewProp_OpenInputMode_MetaData) }; // 2693072755
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_OpenInputMode = { "OpenInputMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, OpenInputMode), Z_Construct_UEnum_BeyondDarkRemake_EDoorOpenInput, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OpenInputMode_MetaData), NewProp_OpenInputMode_MetaData) }; // 2672798511
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_InputDeadzone = { "InputDeadzone", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, InputDeadzone), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputDeadzone_MetaData), NewProp_InputDeadzone_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorDriveSpeed = { "DoorDriveSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, DoorDriveSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorDriveSpeed_MetaData), NewProp_DoorDriveSpeed_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHidingSpotComponent_Statics::NewProp_DoorRelaxCloseSpeed = { "DoorRelaxCloseSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UHidingSpotComponent, DoorRelaxCloseSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DoorRelaxCloseSpeed_MetaData), NewProp_DoorRelaxCloseSpeed_MetaData) };
@@ -1804,19 +1804,19 @@ UHidingSpotComponent::~UHidingSpotComponent() {}
 // End Class UHidingSpotComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
-		{ EHidingDoorType_StaticEnum, TEXT("EHidingDoorType"), &Z_Registration_Info_UEnum_EHidingDoorType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 723507413U) },
-		{ EDoorOpenInput_StaticEnum, TEXT("EDoorOpenInput"), &Z_Registration_Info_UEnum_EDoorOpenInput, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2693072755U) },
+		{ EHidingDoorType_StaticEnum, TEXT("EHidingDoorType"), &Z_Registration_Info_UEnum_EHidingDoorType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4124047101U) },
+		{ EDoorOpenInput_StaticEnum, TEXT("EDoorOpenInput"), &Z_Registration_Info_UEnum_EDoorOpenInput, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2672798511U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UHidingSpotComponent, UHidingSpotComponent::StaticClass, TEXT("UHidingSpotComponent"), &Z_Registration_Info_UClass_UHidingSpotComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHidingSpotComponent), 374192159U) },
+		{ Z_Construct_UClass_UHidingSpotComponent, UHidingSpotComponent::StaticClass, TEXT("UHidingSpotComponent"), &Z_Registration_Info_UClass_UHidingSpotComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHidingSpotComponent), 2852288625U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_4269773499(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_2126847072(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_Statics::ClassInfo),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_HidingSpotComponent_h_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_HidingSpots_HidingSpotComponent_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/BeyondDarkRemakeProjectile.h"
+#include "BeyondDarkRemake/Public/Player/Interaction/BeyondDarkRemakeProjectile.h"
 #include "Runtime/Engine/Classes/Engine/HitResult.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBeyondDarkRemakeProjectile() {}
@@ -39,7 +39,7 @@ struct Z_Construct_UFunction_ABeyondDarkRemakeProjectile_OnHit_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** called when projectile hits something */" },
 #endif
-		{ "ModuleRelativePath", "BeyondDarkRemakeProjectile.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeProjectile.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "called when projectile hits something" },
 #endif
@@ -118,8 +118,8 @@ struct Z_Construct_UClass_ABeyondDarkRemakeProjectile_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-		{ "IncludePath", "BeyondDarkRemakeProjectile.h" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeProjectile.h" },
+		{ "IncludePath", "Player/Interaction/BeyondDarkRemakeProjectile.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeProjectile.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CollisionComp_MetaData[] = {
 		{ "Category", "Projectile" },
@@ -127,7 +127,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeProjectile_Statics
 		{ "Comment", "/** Sphere collision component */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeProjectile.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeProjectile.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sphere collision component" },
 #endif
@@ -139,7 +139,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeProjectile_Statics
 		{ "Comment", "/** Projectile movement component */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeProjectile.h" },
+		{ "ModuleRelativePath", "Public/Player/Interaction/BeyondDarkRemakeProjectile.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Projectile movement component" },
 #endif
@@ -150,7 +150,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeProjectile_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ABeyondDarkRemakeProjectile_OnHit, "OnHit" }, // 2581730480
+		{ &Z_Construct_UFunction_ABeyondDarkRemakeProjectile_OnHit, "OnHit" }, // 322071181
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -202,14 +202,14 @@ ABeyondDarkRemakeProjectile::~ABeyondDarkRemakeProjectile() {}
 // End Class ABeyondDarkRemakeProjectile
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABeyondDarkRemakeProjectile, ABeyondDarkRemakeProjectile::StaticClass, TEXT("ABeyondDarkRemakeProjectile"), &Z_Registration_Info_UClass_ABeyondDarkRemakeProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeyondDarkRemakeProjectile), 195757813U) },
+		{ Z_Construct_UClass_ABeyondDarkRemakeProjectile, ABeyondDarkRemakeProjectile::StaticClass, TEXT("ABeyondDarkRemakeProjectile"), &Z_Registration_Info_UClass_ABeyondDarkRemakeProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeyondDarkRemakeProjectile), 617693306U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_527877625(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeProjectile_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_3131968110(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Interaction_BeyondDarkRemakeProjectile_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/DirectionalLeanComponent.h"
+#include "BeyondDarkRemake/Public/Player/Locomotion/DirectionalLeanComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDirectionalLeanComponent() {}
 
@@ -32,8 +32,8 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Camera" },
-		{ "IncludePath", "DirectionalLeanComponent.h" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "IncludePath", "Player/Locomotion/DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReferenceSpeed_MetaData[] = {
 		{ "Category", "Lean|Tuning" },
@@ -41,7 +41,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Reference speed (cm/s) for normalization\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reference speed (cm/s) for normalization" },
 #endif
@@ -51,21 +51,21 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Idle gating with hysteresis\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Idle gating with hysteresis" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StopMoveSpeed_MetaData[] = {
 		{ "Category", "Lean|Tuning" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeStartThreshold_MetaData[] = {
 		{ "Category", "Lean|Strafe" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ---- Strafe (roll) ----\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "---- Strafe (roll) ----" },
 #endif
@@ -75,7 +75,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// cm/s to trigger start impulse\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "cm/s to trigger start impulse" },
 #endif
@@ -85,7 +85,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// sustained roll at full strafe\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "sustained roll at full strafe" },
 #endif
@@ -95,66 +95,66 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// quick kick when you flip/start\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "quick kick when you flip/start" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeSustainOutSpeed_MetaData[] = {
 		{ "Category", "Lean|Strafe" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeImpulseDamping_MetaData[] = {
 		{ "Category", "Lean|Strafe" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeExponent_MetaData[] = {
 		{ "Category", "Lean|Strafe" },
 		{ "ClampMax", "3.0" },
 		{ "ClampMin", "0.5" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackStartThreshold_MetaData[] = {
 		{ "Category", "Lean|Back" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ---- Backward (pitch) ----\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "---- Backward (pitch) ----" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackSustainPitchDownDeg_MetaData[] = {
 		{ "Category", "Lean|Back" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackStartPitchDownImpulseDeg_MetaData[] = {
 		{ "Category", "Lean|Back" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// down is negative pitch\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "down is negative pitch" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackSustainInSpeed_MetaData[] = {
 		{ "Category", "Lean|Back" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackSustainOutSpeed_MetaData[] = {
 		{ "Category", "Lean|Back" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackImpulseDamping_MetaData[] = {
 		{ "Category", "Lean|Back" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BackExponent_MetaData[] = {
 		{ "Category", "Lean|Back" },
 		{ "ClampMax", "3.0" },
 		{ "ClampMin", "0.5" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeDominanceStart_MetaData[] = {
 		{ "Category", "Lean|StrafeGate" },
@@ -163,7 +163,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// How much the movement must be \"sideways\" before roll engages\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How much the movement must be \"sideways\" before roll engages" },
 #endif
@@ -175,7 +175,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// need 70% sideways to start\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "need 70% sideways to start" },
 #endif
@@ -186,7 +186,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// fall back below 55%\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "fall back below 55%" },
 #endif
@@ -197,7 +197,7 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Ignore tiny lateral speeds entirely\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Ignore tiny lateral speeds entirely" },
 #endif
@@ -207,20 +207,20 @@ struct Z_Construct_UClass_UDirectionalLeanComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Master enables\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Master enables" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAffectPitch_MetaData[] = {
 		{ "Category", "Lean|Axes" },
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Mod_MetaData[] = {
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// We inject this into the PlayerCameraManager so we can add roll/pitch AFTER control rotation.\n" },
 #endif
-		{ "ModuleRelativePath", "DirectionalLeanComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/DirectionalLeanComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "We inject this into the PlayerCameraManager so we can add roll/pitch AFTER control rotation." },
 #endif
@@ -355,14 +355,14 @@ UDirectionalLeanComponent::~UDirectionalLeanComponent() {}
 // End Class UDirectionalLeanComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_DirectionalLeanComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDirectionalLeanComponent, UDirectionalLeanComponent::StaticClass, TEXT("UDirectionalLeanComponent"), &Z_Registration_Info_UClass_UDirectionalLeanComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDirectionalLeanComponent), 1043756591U) },
+		{ Z_Construct_UClass_UDirectionalLeanComponent, UDirectionalLeanComponent::StaticClass, TEXT("UDirectionalLeanComponent"), &Z_Registration_Info_UClass_UDirectionalLeanComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDirectionalLeanComponent), 1984514315U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanComponent_h_282796236(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_DirectionalLeanComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_DirectionalLeanComponent_h_1029307052(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_DirectionalLeanComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_DirectionalLeanComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

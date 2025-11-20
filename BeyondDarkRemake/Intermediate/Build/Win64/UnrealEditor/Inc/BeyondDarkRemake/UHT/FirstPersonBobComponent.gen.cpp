@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/FirstPersonBobComponent.h"
+#include "BeyondDarkRemake/Public/Player/Locomotion/FirstPersonBobComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFirstPersonBobComponent() {}
 
@@ -24,7 +24,7 @@ struct Z_Construct_UDelegateFunction_BeyondDarkRemake_OnFootstep__DelegateSignat
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -60,8 +60,8 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Camera" },
-		{ "IncludePath", "FirstPersonBobComponent.h" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "IncludePath", "Player/Locomotion/FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 		{ "Category", "Refs" },
@@ -69,7 +69,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "Comment", "// Refs\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Refs" },
 #endif
@@ -78,31 +78,31 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "Category", "Bob|DirMult" },
 		{ "ClampMax", "2.0" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ZMultStrafe_MetaData[] = {
 		{ "Category", "Bob|DirMult" },
 		{ "ClampMax", "2.0" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ZMultBackward_MetaData[] = {
 		{ "Category", "Bob|DirMult" },
 		{ "ClampMax", "2.0" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ZMultCrouch_MetaData[] = {
 		{ "Category", "Bob|DirMult" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CrouchAlpha_MetaData[] = {
 		{ "Category", "Bob|External" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// 0 = fully standing, 1 = fully crouched (set by character each tick)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "0 = fully standing, 1 = fully crouched (set by character each tick)" },
 #endif
@@ -112,7 +112,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// (Optional) also scale fore/aft torso sway by direction, off by default\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "(Optional) also scale fore/aft torso sway by direction, off by default" },
 #endif
@@ -122,62 +122,62 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "ClampMax", "2.0" },
 		{ "ClampMin", "0.0" },
 		{ "EditCondition", "bApplyDirMultToX" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_XMultStrafe_MetaData[] = {
 		{ "Category", "Bob|DirMult" },
 		{ "ClampMin", "0.0" },
 		{ "EditCondition", "bApplyDirMultToX" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_XMultBackward_MetaData[] = {
 		{ "Category", "Bob|DirMult" },
 		{ "ClampMin", "0.0" },
 		{ "EditCondition", "bApplyDirMultToX" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WalkAmplitudeZ_MetaData[] = {
 		{ "Category", "Bob|Walk" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Amplitudes (cm)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Amplitudes (cm)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WalkAmplitudeX_MetaData[] = {
 		{ "Category", "Bob|Walk" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IdleAmplitudeZ_MetaData[] = {
 		{ "Category", "Bob|Idle" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MinWalkHz_MetaData[] = {
 		{ "Category", "Bob|Walk" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Frequencies (steps/sec). Walk freq scales with speed; idle is fixed.\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Frequencies (steps/sec). Walk freq scales with speed; idle is fixed." },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxWalkHz_MetaData[] = {
 		{ "Category", "Bob|Walk" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IdleHz_MetaData[] = {
 		{ "Category", "Bob|Idle" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReferenceSpeed_MetaData[] = {
 		{ "Category", "Bob|Tuning" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Movement/bob tuning\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Movement/bob tuning" },
 #endif
@@ -187,7 +187,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// cm/s for MaxWalkHz\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "cm/s for MaxWalkHz" },
 #endif
@@ -197,7 +197,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// low-pass speed\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "low-pass speed" },
 #endif
@@ -207,71 +207,71 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Hysteresis to decide moving vs idle (in cm/s)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hysteresis to decide moving vs idle (in cm/s)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StopMoveSpeed_MetaData[] = {
 		{ "Category", "Bob|Tuning" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeRollDegrees_MetaData[] = {
 		{ "Category", "Sway" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Simple roll blend for visual weight\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Simple roll blend for visual weight" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RollInterpSpeed_MetaData[] = {
 		{ "Category", "Sway" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanMaxRollDeg_MetaData[] = {
 		{ "Category", "Lean" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ===== Lean (strafing weight) =====\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "===== Lean (strafing weight) =====" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanMaxYawDeg_MetaData[] = {
 		{ "Category", "Lean" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanMaxOffsetY_MetaData[] = {
 		{ "Category", "Lean" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanExponent_MetaData[] = {
 		{ "Category", "Lean" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// cm\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "cm" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanInSpeed_MetaData[] = {
 		{ "Category", "Lean" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LeanOutSpeed_MetaData[] = {
 		{ "Category", "Lean" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ExternalBaseOffsetZ_MetaData[] = {
 		{ "Category", "Bob|External" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Extra base Z offset other systems can drive (e.g., crouch)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Extra base Z offset other systems can drive (e.g., crouch)" },
 #endif
@@ -281,7 +281,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Direction-change \xef\xbf\xbdwhip\xef\xbf\xbd impulse\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Direction-change \xef\xbf\xbdwhip\xef\xbf\xbd impulse" },
 #endif
@@ -291,25 +291,25 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// cm/s\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "cm/s" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ImpulseYawDeg_MetaData[] = {
 		{ "Category", "Lean|Impulse" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ImpulseOffsetY_MetaData[] = {
 		{ "Category", "Lean|Impulse" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ImpulseDamping_MetaData[] = {
 		{ "Category", "Lean|Impulse" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// cm\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "cm" },
 #endif
@@ -319,7 +319,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Optional curve to shape lean response (X = |lateralNorm| 0..1, Y = 0..1)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional curve to shape lean response (X = |lateralNorm| 0..1, Y = 0..1)" },
 #endif
@@ -329,7 +329,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Step events only when actually \xef\xbf\xbdwalking\xef\xbf\xbd\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Step events only when actually \xef\xbf\xbdwalking\xef\xbf\xbd" },
 #endif
@@ -341,7 +341,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// --- Bob speed response (how amplitudes grow with speed) ---\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "--- Bob speed response (how amplitudes grow with speed) ---" },
 #endif
@@ -353,7 +353,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Forward vs. strafe contribution to step rate (0=strfe-only, 1=forward-only)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Forward vs. strafe contribution to step rate (0=strfe-only, 1=forward-only)" },
 #endif
@@ -364,7 +364,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// --- Sprint controls ---\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "--- Sprint controls ---" },
 #endif
@@ -375,7 +375,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// \xef\xbf\xbd ReferenceSpeed where sprint boost starts\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "\xef\xbf\xbd ReferenceSpeed where sprint boost starts" },
 #endif
@@ -387,7 +387,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Multiplies the cadence during sprint (subtle goes a long way)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Multiplies the cadence during sprint (subtle goes a long way)" },
 #endif
@@ -399,7 +399,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Amplitude multipliers near full sprint (per-axis)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Amplitude multipliers near full sprint (per-axis)" },
 #endif
@@ -408,13 +408,13 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "Category", "Bob|Sprint" },
 		{ "ClampMax", "3.0" },
 		{ "ClampMin", "0.5" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintAmpZ_MetaData[] = {
 		{ "Category", "Bob|Sprint" },
 		{ "ClampMax", "3.0" },
 		{ "ClampMin", "0.5" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeSwayBaseScale_MetaData[] = {
 		{ "Category", "Bob|Strafe" },
@@ -423,7 +423,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// --- Strafe sway controls (side-to-side bob separate from lean) ---\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "--- Strafe sway controls (side-to-side bob separate from lean) ---" },
 #endif
@@ -435,7 +435,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Map StrafeNorm (0..1) -> sway factor in [Min..Max]\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Map StrafeNorm (0..1) -> sway factor in [Min..Max]" },
 #endif
@@ -444,7 +444,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "Category", "Bob|Strafe" },
 		{ "ClampMax", "2.0" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StrafeSwayPhaseDeg_MetaData[] = {
 		{ "Category", "Bob|Strafe" },
@@ -453,7 +453,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Phase offset for Y sway (deg) relative to vertical bob\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Phase offset for Y sway (deg) relative to vertical bob" },
 #endif
@@ -463,7 +463,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ===== Curve-shaped bob waves (0..1 phase -> approximately -1..1) =====\n// If null, we fall back to sine defaults.\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "===== Curve-shaped bob waves (0..1 phase -> approximately -1..1) =====\nIf null, we fall back to sine defaults." },
 #endif
@@ -473,7 +473,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// vertical\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "vertical" },
 #endif
@@ -483,7 +483,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// fore/aft\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "fore/aft" },
 #endif
@@ -495,7 +495,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Additional phase control for X (Y uses StrafeSwayPhaseDeg)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Additional phase control for X (Y uses StrafeSwayPhaseDeg)" },
 #endif
@@ -505,18 +505,18 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ===== Amplitude vs speed curves =====\n// speedNorm = SmoothedSpeed / ReferenceSpeed (0..1). If null, math fallback is used.\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "===== Amplitude vs speed curves =====\nspeedNorm = SmoothedSpeed / ReferenceSpeed (0..1). If null, math fallback is used." },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmpXBySpeed_MetaData[] = {
 		{ "Category", "Bob|Amplitude" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AmpYByStrafe_MetaData[] = {
 		{ "Category", "Bob|Amplitude" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GlobalBobStrength_MetaData[] = {
 		{ "Category", "Bob|Amplitude" },
@@ -525,7 +525,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Quick global scaler after curves\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Quick global scaler after curves" },
 #endif
@@ -535,7 +535,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// ===== Optional step \"kick\" impulse on footfalls =====\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "===== Optional step \"kick\" impulse on footfalls =====" },
 #endif
@@ -544,7 +544,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "Category", "Bob|StepImpulse" },
 		{ "ClampMax", "2.0" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StepKickDamping_MetaData[] = {
 		{ "Category", "Bob|StepImpulse" },
@@ -553,7 +553,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Z impulse per step\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Z impulse per step" },
 #endif
@@ -565,7 +565,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Two footfalls per cycle; tweak where in the 0..1 phase they land\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Two footfalls per cycle; tweak where in the 0..1 phase they land" },
 #endif
@@ -574,7 +574,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 		{ "Category", "Bob|StepImpulse" },
 		{ "ClampMax", "1.0" },
 		{ "ClampMin", "0.0" },
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StepKickSpeedScale_MetaData[] = {
 		{ "Category", "Bob|StepImpulse" },
@@ -583,7 +583,7 @@ struct Z_Construct_UClass_UFirstPersonBobComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// How strongly speed affects the kick (0 = constant, 1 = scales with speedNorm)\n" },
 #endif
-		{ "ModuleRelativePath", "FirstPersonBobComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Locomotion/FirstPersonBobComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How strongly speed affects the kick (0 = constant, 1 = scales with speedNorm)" },
 #endif
@@ -701,7 +701,7 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFirstPersonBob
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_ImpulseOffsetY = { "ImpulseOffsetY", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, ImpulseOffsetY), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ImpulseOffsetY_MetaData), NewProp_ImpulseOffsetY_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_ImpulseDamping = { "ImpulseDamping", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, ImpulseDamping), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ImpulseDamping_MetaData), NewProp_ImpulseDamping_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_LeanResponseCurve = { "LeanResponseCurve", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, LeanResponseCurve), Z_Construct_UClass_UCurveFloat_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LeanResponseCurve_MetaData), NewProp_LeanResponseCurve_MetaData) };
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_OnFootstep = { "OnFootstep", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, OnFootstep), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnFootstep__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnFootstep_MetaData), NewProp_OnFootstep_MetaData) }; // 2675354107
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_OnFootstep = { "OnFootstep", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, OnFootstep), Z_Construct_UDelegateFunction_BeyondDarkRemake_OnFootstep__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnFootstep_MetaData), NewProp_OnFootstep_MetaData) }; // 1978839554
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_SpeedAmpExponent = { "SpeedAmpExponent", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, SpeedAmpExponent), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpeedAmpExponent_MetaData), NewProp_SpeedAmpExponent_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_ForwardBiasInStride = { "ForwardBiasInStride", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, ForwardBiasInStride), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ForwardBiasInStride_MetaData), NewProp_ForwardBiasInStride_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UFirstPersonBobComponent_Statics::NewProp_SprintGateStartFraction = { "SprintGateStartFraction", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonBobComponent, SprintGateStartFraction), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SprintGateStartFraction_MetaData), NewProp_SprintGateStartFraction_MetaData) };
@@ -835,14 +835,14 @@ UFirstPersonBobComponent::~UFirstPersonBobComponent() {}
 // End Class UFirstPersonBobComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFirstPersonBobComponent, UFirstPersonBobComponent::StaticClass, TEXT("UFirstPersonBobComponent"), &Z_Registration_Info_UClass_UFirstPersonBobComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPersonBobComponent), 3386386717U) },
+		{ Z_Construct_UClass_UFirstPersonBobComponent, UFirstPersonBobComponent::StaticClass, TEXT("UFirstPersonBobComponent"), &Z_Registration_Info_UClass_UFirstPersonBobComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPersonBobComponent), 2906693229U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_4047389467(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FirstPersonBobComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_3165734771(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_FirstPersonBobComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

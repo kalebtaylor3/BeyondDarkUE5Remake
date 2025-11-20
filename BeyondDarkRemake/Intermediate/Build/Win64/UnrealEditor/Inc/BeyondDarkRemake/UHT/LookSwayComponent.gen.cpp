@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/LookSwayComponent.h"
+#include "BeyondDarkRemake/Public/Player/Camera/LookSwayComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeLookSwayComponent() {}
 
@@ -31,7 +31,7 @@ struct Z_Construct_UFunction_ULookSwayComponent_AddLookInput_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Call this from your Character::Look() each frame with the LookAction value\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Call this from your Character::Look() each frame with the LookAction value" },
 #endif
@@ -90,8 +90,8 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Camera" },
-		{ "IncludePath", "LookSwayComponent.h" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "IncludePath", "Player/Camera/LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 		{ "Category", "Refs" },
@@ -99,7 +99,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 		{ "Comment", "// References (auto-found in BeginPlay if not set)\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "References (auto-found in BeginPlay if not set)" },
 #endif
@@ -109,7 +109,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// === Magnitudes ===\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "=== Magnitudes ===" },
 #endif
@@ -119,7 +119,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// tilt when moving mouse X\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "tilt when moving mouse X" },
 #endif
@@ -129,7 +129,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// slight yaw lead/lag\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "slight yaw lead/lag" },
 #endif
@@ -139,7 +139,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// tiny pitch from mouse Y\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "tiny pitch from mouse Y" },
 #endif
@@ -149,29 +149,29 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Input?sway scales (per unit LookAction value)\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input?sway scales (per unit LookAction value)" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_YawPerLookX_MetaData[] = {
 		{ "Category", "Sway" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PitchPerLookY_MetaData[] = {
 		{ "Category", "Sway" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OffsetYPerLookX_MetaData[] = {
 		{ "Category", "Sway" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InSpeed_MetaData[] = {
 		{ "Category", "Sway" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Inertia\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Inertia" },
 #endif
@@ -181,7 +181,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// lean in\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "lean in" },
 #endif
@@ -191,39 +191,39 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Optional micro handheld noise\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional micro handheld noise" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NoiseRollDeg_MetaData[] = {
 		{ "Category", "Noise" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NoiseOffsetY_MetaData[] = {
 		{ "Category", "Noise" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NoiseHzLow_MetaData[] = {
 		{ "Category", "Noise" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// cm\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "cm" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NoiseHzHigh_MetaData[] = {
 		{ "Category", "Noise" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FlickThreshold_MetaData[] = {
 		{ "Category", "Impulse" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Direction-change \xef\xbf\xbdwhip\xef\xbf\xbd impulse on rapid look reversals\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Direction-change \xef\xbf\xbdwhip\xef\xbf\xbd impulse on rapid look reversals" },
 #endif
@@ -233,22 +233,22 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// look X delta magnitude to count as flick\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "look X delta magnitude to count as flick" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ImpulseYawDeg_MetaData[] = {
 		{ "Category", "Impulse" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ImpulseDamping_MetaData[] = {
 		{ "Category", "Impulse" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseControlRotationDelta_MetaData[] = {
 		{ "Category", "Sway" },
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RefLookRateDegPerSec_MetaData[] = {
 		{ "Category", "Sway" },
@@ -256,7 +256,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Normalize yaw/pitch rates (deg/sec) by this \xef\xbf\xbd""fast pan\xef\xbf\xbd reference\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Normalize yaw/pitch rates (deg/sec) by this \xef\xbf\xbd""fast pan\xef\xbf\xbd reference" },
 #endif
@@ -266,7 +266,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// Clamp and shape\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Clamp and shape" },
 #endif
@@ -276,7 +276,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "// don\xef\xbf\xbdt overreact to spikes\n" },
 #endif
-		{ "ModuleRelativePath", "LookSwayComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/LookSwayComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "don\xef\xbf\xbdt overreact to spikes" },
 #endif
@@ -311,7 +311,7 @@ struct Z_Construct_UClass_ULookSwayComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ULookSwayComponent_AddLookInput, "AddLookInput" }, // 1569578107
+		{ &Z_Construct_UFunction_ULookSwayComponent_AddLookInput, "AddLookInput" }, // 2779456535
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -415,14 +415,14 @@ ULookSwayComponent::~ULookSwayComponent() {}
 // End Class ULookSwayComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ULookSwayComponent, ULookSwayComponent::StaticClass, TEXT("ULookSwayComponent"), &Z_Registration_Info_UClass_ULookSwayComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULookSwayComponent), 4086773737U) },
+		{ Z_Construct_UClass_ULookSwayComponent, ULookSwayComponent::StaticClass, TEXT("ULookSwayComponent"), &Z_Registration_Info_UClass_ULookSwayComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULookSwayComponent), 747101388U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_2347556637(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_LookSwayComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_3115410618(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_LookSwayComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

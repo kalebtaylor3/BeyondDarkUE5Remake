@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/BeyondDarkRemakeGameMode.h"
+#include "BeyondDarkRemake/Public/BeyondDarkRemakeGameMode.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBeyondDarkRemakeGameMode() {}
 
@@ -31,7 +31,7 @@ struct Z_Construct_UClass_ABeyondDarkRemakeGameMode_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "BeyondDarkRemakeGameMode.h" },
-		{ "ModuleRelativePath", "BeyondDarkRemakeGameMode.h" },
+		{ "ModuleRelativePath", "Public/BeyondDarkRemakeGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif // WITH_METADATA
@@ -78,14 +78,14 @@ ABeyondDarkRemakeGameMode::~ABeyondDarkRemakeGameMode() {}
 // End Class ABeyondDarkRemakeGameMode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABeyondDarkRemakeGameMode, ABeyondDarkRemakeGameMode::StaticClass, TEXT("ABeyondDarkRemakeGameMode"), &Z_Registration_Info_UClass_ABeyondDarkRemakeGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeyondDarkRemakeGameMode), 90371275U) },
+		{ Z_Construct_UClass_ABeyondDarkRemakeGameMode, ABeyondDarkRemakeGameMode::StaticClass, TEXT("ABeyondDarkRemakeGameMode"), &Z_Registration_Info_UClass_ABeyondDarkRemakeGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABeyondDarkRemakeGameMode), 3486190897U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_3952099298(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_BeyondDarkRemakeGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_4086809140(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_BeyondDarkRemakeGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

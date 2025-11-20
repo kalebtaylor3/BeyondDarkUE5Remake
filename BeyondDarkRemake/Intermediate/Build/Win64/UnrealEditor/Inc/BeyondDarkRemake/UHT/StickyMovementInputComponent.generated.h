@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "StickyMovementInputComponent.h"
+// IWYU pragma: private, include "Player/Locomotion/StickyMovementInputComponent.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEYONDDARKREMAKE_StickyMovementInputComponent_generated_h
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execUpdateAndGetSmoothed);
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUStickyMovementInputComponent(); \
 	friend struct Z_Construct_UClass_UStickyMovementInputComponent_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(UStickyMovementInputComponent)
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UStickyMovementInputComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -41,13 +41,13 @@ public: \
 	NO_API virtual ~UStickyMovementInputComponent();
 
 
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_10_PROLOG
-#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_GENERATED_BODY \
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_10_PROLOG
+#define FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_INCLASS_NO_PURE_DECLS \
-	FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h_13_ENHANCED_CONSTRUCTORS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_INCLASS_NO_PURE_DECLS \
+	FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,7 +55,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BEYONDDARKREMAKE_API UClass* StaticClass<class UStickyMovementInputComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_StickyMovementInputComponent_h
+#define CURRENT_FILE_ID FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Locomotion_StickyMovementInputComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

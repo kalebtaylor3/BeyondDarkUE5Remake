@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "BeyondDarkRemake/FOVKickComponent.h"
+#include "BeyondDarkRemake/Public/Player/Camera/FOVKickComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFOVKickComponent() {}
 
@@ -30,7 +30,7 @@ struct Z_Construct_UFunction_UFOVKickComponent_SetSprinting_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Call from character when sprinting toggles */" },
 #endif
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Call from character when sprinting toggles" },
 #endif
@@ -91,29 +91,29 @@ struct Z_Construct_UClass_UFOVKickComponent_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Camera" },
-		{ "IncludePath", "FOVKickComponent.h" },
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "IncludePath", "Player/Camera/FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 		{ "Category", "FOV" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseFOV_MetaData[] = {
 		{ "Category", "FOV" },
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SprintFOVAdd_MetaData[] = {
 		{ "Category", "FOV" },
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EaseInSpeed_MetaData[] = {
 		{ "Category", "FOV" },
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EaseOutSpeed_MetaData[] = {
 		{ "Category", "FOV" },
-		{ "ModuleRelativePath", "FOVKickComponent.h" },
+		{ "ModuleRelativePath", "Public/Player/Camera/FOVKickComponent.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Camera;
@@ -124,7 +124,7 @@ struct Z_Construct_UClass_UFOVKickComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UFOVKickComponent_SetSprinting, "SetSprinting" }, // 1675632619
+		{ &Z_Construct_UFunction_UFOVKickComponent_SetSprinting, "SetSprinting" }, // 2452900531
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -182,14 +182,14 @@ UFOVKickComponent::~UFOVKickComponent() {}
 // End Class UFOVKickComponent
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_Statics
+struct Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFOVKickComponent, UFOVKickComponent::StaticClass, TEXT("UFOVKickComponent"), &Z_Registration_Info_UClass_UFOVKickComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFOVKickComponent), 788124358U) },
+		{ Z_Construct_UClass_UFOVKickComponent, UFOVKickComponent::StaticClass, TEXT("UFOVKickComponent"), &Z_Registration_Info_UClass_UFOVKickComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFOVKickComponent), 2057689017U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_3261912741(TEXT("/Script/BeyondDarkRemake"),
-	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_FOVKickComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_2801189246(TEXT("/Script/BeyondDarkRemake"),
+	Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BeyondDarkRemake_Source_BeyondDarkRemake_Public_Player_Camera_FOVKickComponent_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
